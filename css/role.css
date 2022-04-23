@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@600&display=swap');
+
+body {
+	background: url("https://c.wallhere.com/photos/d6/08/library_university_books-1556469.jpg!d");
+}
+
+/* style of navbar */
+.navbar {
+	width: 100%;
+	background-color: #DAA520;
+	font-family: 'Jura', sans-serif;
+	font-size: 16px;
+}
+
+.nav-item:hover  {
+	border-bottom: 1px solid black;
+}
+
+.navbar-toggler-icon {
+	width: 22px;
+	color: black;
+}
+
+.collapse {
+	height: auto;
+	background-color: #DAA520;
+	padding: 7px;
+}
+
+.nav-item {
+	margin-right: 5px;
+	margin-left: 5px;
+	border-bottom: 1px solid #DAA520;
+}
+
+.nav-link {
+	margin-top: -5px;
+	margin-bottom: -5px;
+	text-decoration: none;
+}
+
+/* footer */
+.footer {
+
+
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	height: 110px;
+	background-color: #DAA520;
+	margin-top: 22px;
+}
+
+.word-foot {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 5fr 1fr 3fr 1fr 5fr;
+	text-align: center;
+}
+
+.hrf hr {
+	width: 100%;
+	border: white;
+    color: red; 
+    background-color: white;
+    height: 2px;
+}
+
+.footer-in {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 23%;
+	padding-right: 23%;
+}
+
+.footer-ini {
+	display: grid;
+	grid-template-columns: 1fr 10fr;
+	height: 30px;
+}
+
+.footer-ini div {
+	height: 25px;
+}
+
+.footer-ini div img {
+	height: 100%;
+}
+
+.email {
+	text-align: center;
+}
+
+.media {
+
+	float: right;
+	display: grid;
+	grid-template-columns: 9fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.media div {
+	height: 23px;
+}
+
+.media div img {
+	height: 100%;
+}
+
+/* style of role */
+.role {
+	background-color: white;
+	margin-top: 22px;
+	margin-right: 25px;
+	margin-left: 25px;
+	overflow: hidden;
+	opacity: 0.9;
+}
+
+.word-cat {
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding-top: 30px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 3fr 2fr 4fr 2fr 3fr;
+	text-align: center;
+}
+
+.hr hr {
+	width: 100%;
+	border: #DAA520;
+    color: red; 
+    background-color: #DAA520;
+    height: 2px;
+}
+
+.wordd {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 80px;
+	padding-right: 80px;
+	font-family: 'Jura', sans-serif;
+	letter-spacing: 1px;
+}

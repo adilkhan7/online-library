@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@600&display=swap');
+
+body {
+	background: url("https://c.wallhere.com/photos/d6/08/library_university_books-1556469.jpg!d");
+}
+
+/* style of navbar */
+.navbar {
+	width: 100%;
+	background-color: #DAA520;
+	font-family: 'Jura', sans-serif;
+	font-size: 16px;
+}
+
+.nav-item:hover  {
+	border-bottom: 1px solid black;
+}
+
+.navbar-toggler-icon {
+	width: 22px;
+	color: black;
+}
+
+.collapse {
+	height: auto;
+	background-color: #DAA520;
+	padding: 7px;
+}
+
+.nav-item {
+	margin-right: 5px;
+	margin-left: 5px;
+	border-bottom: 1px solid #DAA520;
+}
+
+.nav-link {
+	margin-top: -5px;
+	margin-bottom: -5px;
+	text-decoration: none;
+}
+
+/* footer */
+.footer {
+		 
+    left: 0; bottom: 0;
+
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	height: 110px;
+	background-color: #DAA520;
+	margin-top: 22px;
+}
+
+.word-foot {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 5fr 1fr 3fr 1fr 5fr;
+	text-align: center;
+}
+
+.hrf hr {
+	width: 100%;
+	border: white;
+    color: red; 
+    background-color: white;
+    height: 2px;
+}
+
+.footer-in {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 23%;
+	padding-right: 23%;
+}
+
+.footer-ini {
+	display: grid;
+	grid-template-columns: 1fr 10fr;
+	height: 30px;
+}
+
+.footer-ini div {
+	height: 25px;
+}
+
+.footer-ini div img {
+	height: 100%;
+}
+
+.email {
+	text-align: center;
+}
+
+.media {
+
+	float: right;
+	display: grid;
+	grid-template-columns: 9fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.media div {
+	height: 23px;
+}
+
+.media div img {
+	height: 100%;
+}
+
+/* style of book div */
+.book {
+	opacity: 0.9;
+	margin-top: 22px;
+	margin-right: 50px;
+	margin-left: 50px; 
+	min-height: 550px;
+}
+
+.book-s {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr 5fr 10fr 10fr 1fr;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	grid-gap: 10px;
+}
+
+.img {
+	font-family: 'Jura', sans-serif;
+	text-align: center;
+}
+
+.but {
+	margin-top: 22px;
+	background-color: 	#DAA520;
+	border: 1px solid #DAA520;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: 2s;
+}
+
+.but:hover {
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 50px;
+}
+
+.img img {
+	width: 100%;
+}
+
+.info {
+	font-family: 'Jura', sans-serif;
+}
+
+.info {
+	padding-left: 20px;
+}
+
+
+.story {
+	padding-left: 25px;
+}
+
+.info ul li {
+	color: #DAA520;
+}
+
+.info ul span {
+	color: black;
+}
+
+.word-cat {
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+	text-align: center;
+}
+
+.hr hr {
+	width: 100%;
+	border: #DAA520;
+    color: red; 
+    background-color: #DAA520;
+    height: 2px;
+}
+
+.otziv {
+	text-align: center;
+	padding-top: 22px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.otziv textarea {
+	padding: 10px;
+	width: 100%;
+	font-family: 'Jura', sans-serif;
+	font-size: 15px;
+	height: 100px;
+}
+
+
+.btt {
+	background-color:  #DAA520;
+	border: 1px solid  #DAA520;
+	font-family: 'Jura', sans-serif;
+	font-size: 15px;
+	margin-top: 10px;	
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: 2s;
+}
+
+.btt:hover {
+	padding-left: 60px;
+	padding-right: 60px;
+	border-radius: 50px;
+}
+
+.commente {
+	margin-left: 40px;
+	margin-right: 40px;
+	font-family: 'Jura', sans-serif;
+	font-size: 15px;
+}
+
+.commente div {
+	margin-top: 5px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.pw {
+	float: right;
+	font-size: 13px;
+}
+
+.pe {
+	font-size: 13px;
+}

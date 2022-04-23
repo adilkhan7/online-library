@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@600&display=swap');
+
+
+/* style of navbar */
+.navbar {
+	width: 100%;
+	background-color: #DAA520;
+	font-family: 'Jura', sans-serif;
+	font-size: 16px;
+}
+
+.nav-item:hover  {
+	border-bottom: 1px solid black;
+}
+
+.navbar-toggler-icon {
+	width: 22px;
+	color: black;
+}
+
+.collapse {
+	height: auto;
+	background-color: #DAA520;
+	padding: 7px;
+}
+
+.nav-item {
+	margin-right: 5px;
+	margin-left: 5px;
+	border-bottom: 1px solid #DAA520;
+}
+
+.nav-link {
+	margin-top: -5px;
+	margin-bottom: -5px;
+	text-decoration: none;
+}
+
+/* footer */
+.footer {
+
+
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	font-family: 'Jura', sans-serif;
+	font-size: 18px;
+	height: 110px;
+	background-color: #DAA520;
+	margin-top: 22px;
+}
+
+.word-foot {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 5fr 1fr 3fr 1fr 5fr;
+	text-align: center;
+}
+
+.hrf hr {
+	width: 100%;
+	border: white;
+    color: red; 
+    background-color: white;
+    height: 2px;
+}
+
+.footer-in {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 23%;
+	padding-right: 23%;
+}
+
+.footer-ini {
+	display: grid;
+	grid-template-columns: 1fr 10fr;
+	height: 30px;
+}
+
+.footer-ini div {
+	height: 25px;
+}
+
+.footer-ini div img {
+	height: 100%;
+}
+
+.email {
+	text-align: center;
+}
+
+.media {
+	float: right;
+	display: grid;
+	grid-template-columns: 9fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.media div {
+	height: 23px;
+}
+
+.media div img {
+	height: 100%;
+}
+
+/* style of books */
+.news {
+	min-height: 600px;
+	width: 100%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 40px;
+	font-family: 'Jura', sans-serif;
+	font-size: 22px;
+}
+
+.news-cat {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 15px;
+	padding-top: 22px;
+}
+
+.cats img {
+	width: 100%;
+}
+
+.cats li {
+	font-size: 14px;
+	color: #DAA520;
+}
+
+.cats span {
+	color: black;
+}
+
+.cats ul {
+	padding-top: 15px;
+}
+
+.cats {
+	border-bottom: 1px solid #DAA520;
+}
+
+.cats {
+	transition: 2s;
+	overflow: hidden;
+}
+
+.inp {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.cats input {
+	text-align: center;
+	font-size: 15px;
+	background-color: #DAA520;
+	border: 1px solid #DAA520;
+	padding-right: 25px;
+	padding-left: 25px;
+	transition: 2s;
+}
+
+.cats input:hover {
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 50px;
+}
+
+.cats:hover {
+	box-shadow: 0px 0px 20px black;
+}
+
+.word-cat {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.hr hr {
+	width: 100%;
+	border: #DAA520;
+    color: red; 
+    background-color: #DAA520;
+    height: 2px;
+}
+
+/* style of sortirovki */
+.sortirovka {
+	display: grid;
+	font-size: 16px;
+	grid-template-columns: 2fr 1fr;
+}
+
+.basic{
+	float: right;
+}
+
+.basic select {
+	font-size: 14px;
+	padding: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.basic input {
+	font-size: 14px;
+	background-color: #DAA520;
+	border: 1px solid black;
+}
+
+.pass {
+	font-size: 15px;
+}
+
+/* style of filter */
+.twotype {
+	display: grid;
+	grid-template-columns: 3fr 8fr;
+}
+
+.filter {
+	height: 100px;
+	
+	padding-top: 22px;
+	padding-right: 15px;
+	font-size: 18px;
+}
+
+.filter select {
+	font-size: 14px;
+	padding: 2px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.mainn {
+	border-top: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-right: 10px;
+}
+
+.mainn p {
+	text-align: center;
+}
+
+.mainn span {
+	font-size: 15px;
+}
+
+.mainn input {
+	font-size: 14px;
+	background-color: #DAA520;
+	border: 1px solid black;
+}
+
+.pppp {
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+/* style of poisk */
+.poisk {
+	padding-top: 22px;
+	padding-right: 10px;
+}
+
+.poisk input {
+	font-size: 14px;
+}
+
+.btttt {
+	background-color: #DAA520;
+	border: 1px solid black;
+}
+
+.poisk form {
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	grid-gap: 5px;
+}
+
+.search {
+	padding-left: 5px;
+	padding-right: 5px;
+}
